@@ -1,0 +1,16 @@
+html::webkit-scrollbar {
+	display: none;
+}
+
+
+.jumbotron-3 {
+	background: url('img/PUL_6204.jpg') center no-repeat;
+	background-size: cover;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.inner-content {
+	max-width: 30rem;
+  color: red;
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: yellow;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: red;
+    font-size: 21px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-section .content .button{
+    margin-top: 30px;
+}
+.content-section .content .button a{
+    background-color: black;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+     background-color: red;
+     color: aqua;
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social i{
+    color: red;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    color: rgb(0, 0, 0);
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+   font-size: 24px;
+   color: inherit;
+   border: 1px solid yellow;
+   width: 40px;
+   height: 40px;
+   line-height: 38px;
+   display: inline-block;
+   text-align: center;
+   border-radius: 50%;
+   margin: 0 8px;
+   opacity: 0.75;
+}
+.footer .social a:hover {
+  opacity: 0.9;
+  color: #FFFFFF;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul li a:hover {
+    opacity: 1;
+}
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: red;
+}
+.footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 40px 0px;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+}
+.footer .body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  background-color: white;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 10px auto;
+  padding: 10px auto;
+}
